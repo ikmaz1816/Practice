@@ -1,1 +1,4 @@
 Git commands!
+
+# used to create an empty git repository
+git init
