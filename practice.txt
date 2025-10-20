@@ -2,6 +2,7 @@ Git commands!
 
 # to create a repo
 git init
+<<<<<<< Updated upstream
 
 
 # it gives you the status of the file 
@@ -44,4 +45,16 @@ git diff --staged filename
 git diff commitid..commitid
 
 
+
+
+# to save some work in stash
+git stash
+# to get back saved work from stash
+git stash pop
+#to check stage of file 
+git status
+# to staged a file from untracked state
+git add filename.extension
+#to commit staged file 
+git commit -m"useful message"
 
