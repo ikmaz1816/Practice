@@ -58,3 +58,13 @@ git add filename.extension
 #to commit staged file 
 git commit -m"useful message"
 
+#to revert commit to last version and its make history
+git revert head 
+#to reset to specific commit ,above all commit will delete
+git reset commitid
+#to delete a merge branch 
+git branch -d branchname
+#force to delete branch
+git branch -D branchname
+#to delete a remote branch
+git push origin --delete branchname
