@@ -3,6 +3,7 @@ Git commands!
 # to create a repo
 git init
 
+
 # it gives you the status of the file 
 git status
 
@@ -24,4 +25,23 @@ git push origin branch
 git commit -m "messege"
 
 git diff
+
+
+
+#used to restore and goto previous version "in untraked file 
+git restore filenam
+
+#used to restore and it come back to untracked version "in staged file 
+git restore --staged filename
+
+#used to see diff between 2 untracked file.
+git diff filename 
+
+#used to see diff between staged file.
+git diff --staged filename 
+
+#used to see diffence between 2 commits.
+git diff commitid..commitid
+
+
 
