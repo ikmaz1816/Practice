@@ -1,6 +1,27 @@
-Git commands
+Git commands!
+
+# to create a repo
 git init
-git cone url
-git command -m "messege"
-git push origin main
-git add.
+
+# it gives you the status of the file 
+git status
+
+# it gives you the commit history
+git log
+
+# add all files 
+git add .
+
+# add single file
+git add filename 
+
+git branch branch name
+
+git checkout branch
+
+git push origin branch
+
+git commit -m "messege"
+
+git diff
+
