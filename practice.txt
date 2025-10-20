@@ -1,4 +1,17 @@
 Git commands!
 
-# used to create an empty git repository
+# to create a repo
 git init
+
+# it gives you the status of the file 
+git status
+
+# it gives you the commit history
+git log
+
+# add all files 
+git add .
+
+# add single file
+git add filename 
+
